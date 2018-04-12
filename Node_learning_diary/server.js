@@ -4,7 +4,7 @@ var fs = require('fs');
 
 // adding 404 response for unknow responses
 function send404Response(response){
-    response.writeHead(404,{"Context-Type": "text/plain"});
+    response.writeHead(404,{"Content-Type": "text/plain"});
     response.write("Error 404: Page not found!");
     response.end();
 }
