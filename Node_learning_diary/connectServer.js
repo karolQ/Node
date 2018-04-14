@@ -18,7 +18,7 @@ app.use(doFirst);
 app.use(doSecond);
 */
 
-// connect demo2
+// connect demo2 - seems like routers?
 function profile(request, response){
     console.log("User requested profile");
 
